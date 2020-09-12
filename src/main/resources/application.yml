@@ -2,7 +2,7 @@ server:
   port: 7511
 spring:
   profiles:
-    active: mydev
+    active: dev
   jpa:
     hibernate:
       ddl-auto: update
