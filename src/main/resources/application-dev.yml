@@ -1,0 +1,19 @@
+spring:
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+  datasource:
+    username: sa
+    password: 123456
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:/data/hero  # linux
+#   url: jdbc:h2:file:C:/data/hero   # windows
+    platform: org.hibernate.dialect.H2Dialect
+logging:
+  level:
+    root: debug
+
+bot:
+  username:
+  token:

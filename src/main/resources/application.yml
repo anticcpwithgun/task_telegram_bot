@@ -1,0 +1,10 @@
+server:
+  port: 7511
+spring:
+  profiles:
+    active: mydev
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: H2
